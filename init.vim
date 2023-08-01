@@ -1,4 +1,4 @@
-set number relativenumber   "Esto es para que el '.t.' sea más dacil de hacer"
+set number relativenumber   "Esto es para que el '.t.' sea más fácil de hacer"
 "set cc=82                   Cobol Vibes"
 set autoindent              "Ojalá tuviera electric.el"
 set noswapfile              "Evita el bloat cuando inevitablemente hagas 'git add *'"
