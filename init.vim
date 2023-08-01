@@ -6,6 +6,7 @@ set cursorline              "Necesito Lentes"
 set expandtab	              "Literalmente un salvavidas"
 set ttyfast                 "FIUMMM"
 set tabstop=2               "2 > 4"
-set softtabstop=2
+set softtabstop=2           "2 > 4: reloaded"
+set shiftwidth=2            "2 > 4: electric boogaloo"
 set clipboard=unnamedplus   "<shift>2+y"
 syntax on
