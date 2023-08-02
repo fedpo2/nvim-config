@@ -23,3 +23,16 @@ map <leader>f :e
 
 " Guarda todos los archivos
 map <leader>as :wall<cr>
+
+" Crea una Tab
+nnoremap <leader>tn :tabnew<cr>
+
+" Siguiente Tab
+nnoremap <silent> <C-Right> :tabnext<cr>
+
+" Anterior Tab
+nnoremap <silent> <C-Left> :tabprevious<cr>
+
+" Cierra la tab en primer plano
+nnoremap <leader>tr :tabclose<cr>
+
