@@ -36,3 +36,11 @@ nnoremap <silent> <C-Left> :tabprevious<cr>
 " Cierra la tab en primer plano
 nnoremap <leader>tr :tabclose<cr>
 
+" Guardado Emacs
+nnoremap <C-x><C-s> :w<cr>
+
+" Cerrado Emacs (WIP)
+"nnoremap <C-x><C-c> :wqall<Enter> 
+
+" Abrir Configuracion de nvim
+nnoremap <leader>fp :e ~/.config/nvim/<cr>
