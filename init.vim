@@ -17,3 +17,7 @@ let mapleader = " "
 
 " Abre una Scratch file
 map <leader>d :e ~/.buffer.md<cr>
+
+" Abre el menu para editar archivos
+map <leader>f :e 
+
