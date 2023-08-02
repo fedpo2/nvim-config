@@ -2,7 +2,7 @@ set number relativenumber   "Esto es para que el '.t.' sea más fácil de hacer"
 "set cc=82                   Cobol Vibes"
 set autoindent              "Ojalá tuviera electric.el"
 set noswapfile              "Evita el bloat cuando inevitablemente hagas 'git add *'"
-set nobackup
+set nobackup                "poorman gitea"
 set cursorline              "Necesito Lentes"
 set expandtab	              "Literalmente un salvavidas"
 set ttyfast                 "FIUMMM"
@@ -11,6 +11,7 @@ set softtabstop=2           "2 > 4: reloaded"
 set shiftwidth=2            "2 > 4: electric boogaloo"
 set clipboard=unnamedplus   "<shift>2+y"
 set ignorecase              "Case Insensitive"
+set shm+=I                  "Elimina el mensaje de inicio"
 syntax on
 
 let mapleader = " "
