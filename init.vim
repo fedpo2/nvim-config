@@ -21,3 +21,5 @@ map <leader>d :e ~/.buffer.md<cr>
 " Abre el menu para editar archivos
 map <leader>f :e 
 
+" Guarda todos los archivos
+map <leader>as :wall<cr>
