@@ -44,4 +44,4 @@ nnoremap <C-x><C-s> :w<cr>
 "nnoremap <C-x><C-c> :wqall<Enter> 
 
 " Abrir Configuracion de nvim
-nnoremap <leader>fp :e ~/.config/nvim/<cr>
+nnoremap <leader>fp :exe 'edit' stdpath('config')<cr>
