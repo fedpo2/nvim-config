@@ -16,9 +16,6 @@ syntax on
 
 let mapleader = " "
 
-" Abre una Scratch file
-map <leader>d :e ~/.buffer.md<cr>
-
 " Abre el menu para editar archivos
 map <leader>ff :e 
 
