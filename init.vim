@@ -42,3 +42,13 @@ nnoremap <C-x><C-s> :w<cr>
 
 " Abrir Configuracion de nvim
 nnoremap <leader>fp :exe 'edit' stdpath('config')<cr>
+
+" Crear un Buffer
+nnoremap <leader>bn :badd a<cr>
+
+" Moverse entre Buffers
+nnoremap <C-Up> :bNext<cr>
+nnoremap <C-Down> :bnext<cr>
+
+" Cerrar un Buffer
+nnoremap <leader>bk :bdelete<cr>
