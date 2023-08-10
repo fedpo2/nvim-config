@@ -44,7 +44,7 @@ nnoremap <C-x><C-s> :w<cr>
 nnoremap <leader>fp :exe 'edit' stdpath('config')<cr>
 
 " Crear un Buffer
-nnoremap <leader>bn :badd a<cr>
+nnoremap <leader>bn :badd 
 
 " Moverse entre Buffers
 nnoremap <C-Up> :bNext<cr>
